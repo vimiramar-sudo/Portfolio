@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="web development, html, css, javascript, php, bootstrap, responsive, mobile first, responsive design, SEO standarization, UX and UI, High web accessibility standards "/>
+    <meta name="keywords" content="Portfolio Mohamed FAOUZI web design "/>
+    <title>Portfolio Mohamed FAOUZI@version 2026 </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <h1>Mo<span>Portfolio</span></h1>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre mi</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeBtn" title="Cambiar tema">
+        <img src="assets/dark.svg" alt="moon icon" />
+      </button>
+
+      <div class="hamburger" id="hamburger">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="espacio-lorem">Your Idea | | My Creativity</div>
+
+      <h1 class="titulo-parallax" id="paralaxtit">CREATIVO</h1>
+
+      <div class="espacio-lorem">
+        <span>Haz scroll hacia abajo</span>
+        <img src="assets/arrow_down.svg" alt="scroll down icon" />
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2 id="sobremi">Sobre mi</h2>
+      <div class="presentarme">
+        <p>
+          ¡Hola! Soy un desarrollador apasionado enfocado en crear experiencias
+          digitales limpias, interactivas y visualmente impactantes. Me
+          especializo en tecnologías web front-end modernas y me encanta
+          explorar los límites de lo que CSS puede hacer, como máscaras de
+          fondo, diseños personalizados y animaciones fluidas.
+        </p>
+
+        <div class="img-frame">
+          <img id="pic" src="assets/mypic.png" alt="My Pic" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 id="misproyectos">Mis Proyectos</h2>
+    
+      <div class="projects-grid">
+        <!-- Card 1 -->
+        <div class="card">
+          <img
+            src="assets/ecommerce.gif"
+            alt="Project One"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h3>E-Commerce Platform</h3>
+            <p>
+              Una tienda digital totalmente adaptable con gestión de inventario
+              en tiempo real, un proceso de pago seguro y un panel de control de
+              usuario elegante.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <img
+            src="assets/analytics.gif"
+            alt="Project Two"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h3>Analytics Dashboard</h3>
+            <p>
+              Un completo sistema de seguimiento de métricas de rendimiento para
+              aplicaciones web, con gráficos interactivos SVG personalizados y
+              hojas de datos claras/oscuras.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <img
+            src="assets/chat.gif"
+            alt="Chat App illustration"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h3>AI Chat Application</h3>
+            <p>
+              Una interfaz de mensajería inteligente que utiliza
+              microinteracciones, animaciones personalizadas y un diseño
+              estructurado optimizado para conversaciones en tiempo real.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button class="btn-scroll-top" id="scroll-to-top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
